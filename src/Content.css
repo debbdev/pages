@@ -1,0 +1,66 @@
+.contentImage {
+  object-fit: cover;
+  height: 40rem;
+  width: 100%;
+}
+.fadeBottom {
+  height: 6.5rem;
+  background-color: rgba(8, 8, 8, 0.7);
+  display: flex;
+  position: absolute;
+  top: 677px;
+  width: 100%;
+  align-content: center;
+  align-items: center;
+}
+.fadeBottom__check {
+  display: flex;
+  color: white;
+  flex: 1;
+  margin-left: 250px;
+  align-items: center;
+  font-size: x-large;
+  font-weight: 600;
+}
+.check {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  line-height: 25px;
+}
+.fadeBottom__checkOptions {
+  display: flex;
+  align-items: center;
+}
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 70px;
+  margin-right: 220px;
+}
+.option {
+  background-color: transparent;
+  color: white;
+  margin-left: 20px;
+  height: 40px;
+  width: 100%;
+  border: 2px solid white;
+  padding-left: 3px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.foreign {
+  margin-right: 30px;
+}
+.order {
+  background-color: rgb(255, 72, 0);
+  color: white;
+  margin-left: 40px;
+  height: 40px;
+  width: 200px;
+  border: 2px solid white;
+  padding-left: 10px;
+  font-size: 1.05rem;
+  cursor: pointer;
+}

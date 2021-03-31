@@ -1,0 +1,16 @@
+.form {
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+.form-container {
+  color: black;
+}
+.form-container h2 {
+  margin-bottom: 20px;
+}
+.formContainerInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 200px;
+}

@@ -1,0 +1,85 @@
+.headerHelpline {
+  background-color: rgb(255, 136, 0);
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerHelpline h4 {
+  text-align: center;
+  line-height: 80px;
+  font-size: large;
+}
+.header {
+  display: flex;
+  background-color: #fff;
+  height: 3rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 50px 5px 50px;
+}
+.headerImage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerIcon {
+  object-fit: contain;
+  height: 2rem;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.headerImage h3 {
+  color: rgb(255, 136, 0);
+}
+.headerLinks {
+  display: flex;
+  align-items: center;
+  color: #000;
+  padding-right: 30px;
+}
+.headerCart {
+  color: #000;
+  margin-left: 1000px;
+}
+.headerProfile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerProfile button {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin-left: 20px;
+}
+.headerSignin {
+  display: flex;
+}
+.headerSigninA {
+  width: 100%;
+  background-color: rgb(255, 136, 0);
+  border: none;
+  height: 40px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  cursor: pointer;
+}
+.headerSigninB {
+  width: 100%;
+  background-color: #000;
+  border: none;
+  height: 40px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  cursor: pointer;
+}

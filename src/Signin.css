@@ -1,0 +1,40 @@
+.formContainer {
+  height: 50vh;
+  background-color: rgb(8, 0, 0);
+}
+.regformContainer {
+  height: 70vh;
+}
+.form {
+  height: 85%;
+  border: 2px solid #ffffff;
+  margin: 80px 550px 0px 550px;
+  border-radius: 5px;
+  padding: 40px 50px 0 50px;
+  color: #ffffff;
+}
+.form > h4 {
+  padding-bottom: 5px;
+}
+.form input {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin-bottom: 20px;
+}
+.form button {
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: rgb(255, 136, 0);
+  height: 50px;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin-bottom: 5px;
+}
+.full-width {
+  margin-top: 20px;
+  text-align: center;
+}
